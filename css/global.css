@@ -1,0 +1,60 @@
+@import url(nav.css);
+@import url(hearder.css);
+@import url(sobre.css);
+@import url(servicos.css);
+@import url(galeria.css);
+@import url(footer.css);
+
+@import url('https://a-static.mlcdn.com.br/450x450/painel-de-lona-redondo-cinema-luzes-de-hollywood-fundo-glitter-fabrika-de-festa/fabrikadefesta/560598785/78c9ba03bc6cae90e58a0cc479e92ce1.jpeg');
+
+
+*{    
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    color: #1c1c1c;
+    
+}
+
+h1,
+h2,
+h3{
+    font-family: asap,sans-serif;
+    color: #c5b206;
+    text-align: center;
+    padding-top: 4%;
+}
+
+p{
+    color: #fff;
+  padding: 2%;
+  text-indent: 2%;
+  
+
+}
+
+@media (max_width:600px) {
+   nav ul{
+    flex-direction: column;
+    
+}   
+#conteudos_servicos div{
+    width: 95%;
+}
+}
+
+
+
+

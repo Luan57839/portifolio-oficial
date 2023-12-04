@@ -1,0 +1,60 @@
+hr{
+  border-bottom: 1px solid #2d2dca;
+  width: 20%;
+  margin: 2% auto;
+
+}
+
+#servicos div:nth-child(1), #servicos div:nth-child(3){
+ 
+background-color: #4e4e6146;
+
+}
+
+#conteudos_servicos{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+#conteudos_servicos div{
+    border: 1px solid;
+    width: 48%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 2%;
+    background: black;
+
+}
+
+#conteudos_servicos div  img{
+    width: 20%;
+    display: block;
+    margin: 2% auto 0;
+
+}
+
+@media (max-width: 600px) {
+    #conteudos_servicos{
+
+        flex-direction: column;
+       
+    }
+
+    #conteudos_servicos div{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    #conteudos_servicos .botao{
+       
+       display: block;
+       margin: 2rem auto;
+       width: 7.7rem;
+    }
+
+
+}
+

@@ -1,0 +1,51 @@
+#fotos{
+    background: #191970;
+    margin-top: 2%;
+
+}
+
+#fotos h2{
+    margin-bottom: 4%;
+}
+
+#fotos div{
+    flex-wrap: wrap;
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+  height: 40rem;
+
+
+}
+
+#fotos div img{
+
+width: 30%;
+height: 40%;
+padding: 0 2%;
+
+
+
+}
+
+@media (max-width:600px) {
+    #fotos div{
+        flex-wrap: wrap;
+       width: 100%; 
+       display: flex;
+       justify-content: center;
+      height: auto;
+    
+    
+    }
+
+    #fotos div img{
+
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        
+        
+        
+        }
+}

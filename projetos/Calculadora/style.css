@@ -1,0 +1,80 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     color: white;
+    background: url(https://animes.olanerd.com/wp-content/uploads/2023/08/Estreia-do-Two-Blue-Vortex-com-nova-promocao.jpg) no-repeat center;
+    background: linear-gradient(10deg, red, pink, black, white, );
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  
+}
+
+#resultado {
+    background-color: #fff;
+    height: 3rem;
+    width: 17.7rem;
+    margin: auto;
+    font-size: 2rem;
+    color: black;
+    text-align: right;
+    padding: 0.5rem;
+    overflow: hidden;
+    margin-bottom:1rem;
+}
+
+h1{
+
+    position: absolute;
+    top: 2%;
+}
+
+.calculadora{
+    
+    background-image: url('https://laverdadnoticias.com/__export/1669825586757/sites/laverdad/img/2022/11/30/revelan_al_ninja_mas_poderoso_de_boruto_naruto_next_generations.jpg_1889316708.jpg' );
+    border-radius: 4%;
+    padding: 4%;
+    background-size: cover;
+    background-attachment: fixed;
+  
+
+
+}
+
+button{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0.2rem;
+    background-color:rgb(211, 118, 12);
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid orange;
+    border-radius: 1px;
+}
+
+button:hover{
+    background-color:orange;
+    color: rgb(235, 142, 20);
+    transition: 0.5s;
+    
+}
+
+#igual{
+
+    height: 9rem;
+}
+
+#zero{
+
+   width: 9rem;
+}
